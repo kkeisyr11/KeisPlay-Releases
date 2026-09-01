@@ -8,7 +8,7 @@ KeisPlay is an independent Windows client designed for TVTeam users. It combines
 - EPG guide with programme search and detailed descriptions
 - Catch-up playback and live timeshift controls
 - Picture-in-picture windows with multi-monitor support
-- Server selection and Premium playlist profiles with custom channel ordering
+- Server selection and Premium playlist profiles with custom channel ordering and groups
 - Dark, light, glass and Aurora interface themes
 - Polish, English, German and Russian interface languages
 
@@ -22,16 +22,26 @@ KeisPlay requires 64-bit Windows 11 and an active TVTeam account. The applicatio
 
 New installations include a 7-day full-feature trial. After the trial, live TV and application updates remain available for free. Premium unlocks EPG, catch-up, picture-in-picture, playlist management and other advanced features.
 
+## Report a problem or suggest an idea
+
+Use the public [issue forms](https://github.com/kkeisyr11/KeisPlay-Releases/issues/new/choose) to report a reproducible bug or suggest an improvement. Reports are welcome in English, Polish, German and Russian.
+
+Follow confirmed reports and planned work on the public [KeisPlay Development board](https://github.com/users/kkeisyr11/projects/1).
+
+GitHub issues are public. Never post passwords, TVTeam credentials, payment details, wallet recovery phrases or private links. Send security and private account matters to [kontakt@keisplay.pl](mailto:kontakt@keisplay.pl).
+
 ## Updates and integrity
 
 KeisPlay checks this public repository for new releases. Every release contains the MSI installer, update metadata and a SHA-256 checksum. The application verifies the package before starting installation.
 
 ## Independent project
 
-KeisPlay is an independent project and is not an official TVTeam application. TVTeam provides the television service; KeisPlay is developed and supported separately. This repository contains release binaries and update metadata only—the application source code is not published here.
+KeisPlay is an independent project and is not an official TVTeam application. TVTeam provides the television service; KeisPlay is developed and supported separately. This repository contains release binaries, issue forms and project-level information only—the application source code and commit history are not published here.
 
 ## Links
 
 - [Website](https://keisplay.pl)
-- [All releases](https://github.com/kkeisyr11/KeisPlay-Releases/releases)
-- [Support](mailto:kontakt@keisplay.pl)
+- [Download the latest release](https://github.com/kkeisyr11/KeisPlay-Releases/releases/latest)
+- [Report an issue](https://github.com/kkeisyr11/KeisPlay-Releases/issues/new/choose)
+- [Development board](https://github.com/users/kkeisyr11/projects/1)
+- [Private support](mailto:kontakt@keisplay.pl)
