@@ -1,0 +1,67 @@
+name: Feature request
+description: Suggest an improvement for KeisPlay
+title: "[Idea]: "
+labels:
+  - enhancement
+  - needs-triage
+projects:
+  - kkeisyr11/1
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are welcome in English, Polish, German or Russian. Please do not include private account or payment information.
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options:
+        - English
+        - Polski
+        - Deutsch
+        - Русский
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Playback / live TV
+        - EPG / catch-up
+        - Playlist / profiles / channel sorting
+        - Account / license
+        - Payment
+        - Update / installation
+        - Website
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: Explain what you would like KeisPlay to do.
+    validations:
+      required: true
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Why would it be useful?
+      description: Tell us which problem this would solve.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional details or mockups
+      description: Optional. Remove private information before attaching images.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Privacy check
+      options:
+        - label: I did not include passwords, account credentials, payment details or other private information.
+          required: true
+        - label: I searched existing issues for a similar idea.
+          required: true
