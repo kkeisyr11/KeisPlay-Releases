@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: KeisPlay website and account
+    url: https://keisplay.pl
+    about: Download KeisPlay, manage your account and view Premium options.
+  - name: Private support
+    url: mailto:kontakt@keisplay.pl
+    about: Use email only when your message must contain private account information.
