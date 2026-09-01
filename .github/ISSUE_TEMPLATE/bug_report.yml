@@ -1,0 +1,87 @@
+name: Bug report
+description: Report a reproducible problem in KeisPlay
+title: "[Bug]: "
+labels:
+  - bug
+  - needs-triage
+projects:
+  - kkeisyr11/1
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve KeisPlay. Reports are welcome in English, Polish, German or Russian.
+
+        Never include passwords, TVTeam credentials, payment details, recovery phrases or private links. This is a public report.
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options:
+        - English
+        - Polski
+        - Deutsch
+        - Русский
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: KeisPlay version
+      description: Open Updates in KeisPlay to find the installed version.
+      placeholder: "2.0.5"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Playback / live TV
+        - EPG / catch-up
+        - Playlist / profiles / channel sorting
+        - Account / license
+        - Payment
+        - Update / installation
+        - Website
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. See ...
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 24H2
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshots or additional details
+      description: Drag screenshots here after removing private information.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed passwords, account credentials, payment details and other private information.
+          required: true
+        - label: I searched existing issues for the same problem.
+          required: true
